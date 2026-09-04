@@ -1,4 +1,8 @@
-# DKozzy.github.io
+# Roger Fisher
+
+### Computer Science ePortfolio
+
+Welcome to my Computer Science ePortfolio. This portfolio highlights projects and enhancements completed as part of my CS-499 Computer Science Capstone at Southern New Hampshire University.
 
 ## Category 1: Software Engineering and Design
 
