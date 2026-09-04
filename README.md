@@ -1,3 +1,3 @@
 # DKozzy.github.io
 
-https://github.com/DKozzy/CS-320
+[View the CS-320 Repository] (https://github.com/DKozzy/CS-320)
