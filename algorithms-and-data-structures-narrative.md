@@ -1,6 +1,6 @@
 # Algorithms and Data Structure
 
-## CS-360 Contact Service Enhancement Narrative
+## CS-360 WeighPoint Enhancement Narrative
 
 For the algorithms and data structures part of my ePortfolio I chose an artifact that I created back in CS 360: Mobile Architecture and Programming called WeighPoint, which is an Android weight tracking application. The application has been developed as a mobile application, where users can register for an account, log weight change on a daily basis, set a desired weight range, view the weight history, and optionally view the SMS notifications. Developed in Java with Android Studio up to the application, with a local SQLite database that keeps user and weight data. 
 
