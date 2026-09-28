@@ -49,6 +49,24 @@ The enhancement introduces structured weight-history data, sorting and date-rang
 
 ## Category 3: Databases
 
-The CS-340 Grazioso Salvare project is a Python and MongoDB client/server application that provides animal shelter data through a reusable CRUD module and interactive dashboard. My capstone enhancement will expand the database layer with advanced queries, aggregation pipelines, indexing, pagination, data validation, and improved security.
+### CS-340 Grazioso Salvare Dashboard
 
-[View the CS-340 Repository](https://github.com/DKozzy/CS-340)
+The CS-340 Grazioso Salvare project is a Python and MongoDB client/server application originally developed to manage and analyze animal shelter data through a reusable CRUD module and interactive Dash dashboard. For my CS-499 capstone, I enhanced the project by expanding the database layer and improving how the application retrieves, validates, analyzes, and displays shelter data.
+
+The enhancement introduces MongoDB aggregation pipelines, compound indexing, server-side pagination and sorting, query performance analysis, data validation and normalization, and improved credential security. These changes improve the efficiency, scalability, integrity, and security of the original database application while preserving its existing CRUD and dashboard functionality.
+
+**Enhancement Highlights**
+- Added server-side MongoDB pagination and sorting
+- Added aggregation pipelines for breed analysis
+- Added compound indexing for rescue-related queries
+- Added query execution and performance analysis
+- Reduced documents examined from 10,000 to 17 during indexed rescue-query testing
+- Added document normalization and validation
+- Added validation for create and update operations
+- Removed hardcoded database credentials
+- Added environment-based password management
+- Updated the Dash dashboard to use server-side data retrieval
+- Centralized rescue-filter query construction
+- Preserved compatibility with the original CRUD functionality
+
+[View Original Artifact](https://github.com/DKozzy/CS-340) | [View Enhanced Artifact](https://github.com/DKozzy/CS-340-Enhanced) | [Read Enhancement Narrative](databases-narrative.md)
