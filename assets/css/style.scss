@@ -3,135 +3,152 @@
 
 @import "{{ site.theme }}";
 
-/* ---------- PAGE ---------- */
+/* =========================
+   BASE
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
 
 body {
-    background-color: #f7f9fc;
-    color: #465568;
+    margin: 0;
+    background: #f7f9fc;
+    color: #44546a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.7;
 }
 
-/* ---------- HERO / HEADER ---------- */
+/* =========================
+   HERO
+   ========================= */
 
-.page-header {
-    background-image: linear-gradient(120deg, #174f8a, #2386b8);
-    padding: 4.5rem 2rem;
+.portfolio-hero {
+    background: linear-gradient(120deg, #174f8a, #2386b8);
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
 }
 
-.project-name {
-    color: #ffffff;
-    font-size: 3.25rem;
+.hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    margin: 0;
+    color: white;
+    font-size: 3.6rem;
     font-weight: 700;
     letter-spacing: -1px;
 }
 
-.project-tagline {
-    color: rgba(255, 255, 255, 0.82);
-    font-size: 1.35rem;
+.hero-content p {
+    margin: 0.75rem 0 0.25rem;
+    color: white;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
-/* ---------- MAIN CONTENT ---------- */
+.hero-content span {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 1rem;
+}
 
-.main-content {
+/* =========================
+   MAIN CONTENT
+   ========================= */
+
+.portfolio-content {
     max-width: 1050px;
     margin: 0 auto;
-    padding: 3.5rem 2rem 5rem;
-    color: #465568;
+    padding: 4rem 2rem 5rem;
 }
 
-/* ---------- HEADINGS ---------- */
-
-.main-content h1 {
+.portfolio-content h1 {
     color: #174f8a;
     font-size: 2.6rem;
-    font-weight: 700;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    margin-top: 0;
 }
 
-.main-content h2 {
+.portfolio-content h2 {
     color: #1d6fa5;
     font-size: 2rem;
-    font-weight: 700;
-    margin-top: 3rem;
-    margin-bottom: 1.25rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e1e8ef;
+    margin-top: 3.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid #dce6ef;
 }
 
-.main-content h3 {
-    color: #263f59;
+.portfolio-content h3 {
+    color: #294d6b;
     font-size: 1.45rem;
     margin-top: 2rem;
 }
 
-/* ---------- TEXT ---------- */
-
-.main-content p {
-    margin-bottom: 1.4rem;
+.portfolio-content p {
+    margin: 1.25rem 0;
 }
 
-.main-content li {
+.portfolio-content li {
     margin-bottom: 0.45rem;
 }
 
-/* ---------- LINKS ---------- */
+/* =========================
+   LINKS
+   ========================= */
 
-.main-content a {
+.portfolio-content a {
     color: #1479b8;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
 }
 
-.main-content a:hover {
-    color: #0d527e;
+.portfolio-content a:hover {
+    color: #0c527e;
     text-decoration: underline;
 }
 
-/* ---------- DIVIDERS ---------- */
+/* =========================
+   FOOTER
+   ========================= */
 
-.main-content hr {
-    height: 1px;
-    margin: 3rem 0;
-    background-color: #d9e2ec;
-    border: 0;
+.portfolio-footer {
+    background: #163b5c;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
 }
 
-/* ---------- CODE ---------- */
-
-.main-content code {
-    background-color: #edf2f7;
-    color: #174f8a;
-    padding: 0.15rem 0.35rem;
-    border-radius: 4px;
-}
-
-/* ---------- MOBILE ---------- */
+/* =========================
+   MOBILE
+   ========================= */
 
 @media screen and (max-width: 640px) {
-    .page-header {
-        padding: 3rem 1rem;
+
+    .portfolio-hero {
+        padding: 3.5rem 1.25rem;
     }
 
-    .project-name {
-        font-size: 2.3rem;
+    .hero-content h1 {
+        font-size: 2.5rem;
     }
 
-    .project-tagline {
-        font-size: 1.1rem;
+    .hero-content p {
+        font-size: 1.3rem;
     }
 
-    .main-content {
-        padding: 2rem 1.25rem;
+    .portfolio-content {
+        padding: 2.5rem 1.25rem;
     }
 
-    .main-content h1 {
-        font-size: 2rem;
+    .portfolio-content h1 {
+        font-size: 2.1rem;
     }
 
-    .main-content h2 {
+    .portfolio-content h2 {
         font-size: 1.65rem;
     }
 }
