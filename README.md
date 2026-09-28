@@ -6,9 +6,23 @@ Welcome to my Computer Science ePortfolio. This portfolio highlights projects an
 
 ## Category 1: Software Engineering and Design
 
-The CS-320 Contact Service is a Java application originally developed to manage contact information while enforcing specific validation requirements. For my capstone, I will expand the project into a more complete contact management system with a modular architecture, persistent storage, improved validation, and expanded testing.
+### CS-320 Contact Service
 
-[View the CS-320 Repository](https://github.com/DKozzy/CS-320)
+The CS-320 Contact Service is a Java application originally developed to manage contact information while enforcing specific validation requirements. For my CS-499 capstone, I enhanced the original project into a more complete contact management system with stronger validation, persistent CSV storage, import and export capabilities, activity logging, a command-line interface, and expanded automated testing.
+
+This enhancement demonstrates my growth in software engineering and design by expanding a small service-based application into a more modular and maintainable system. The original functionality was preserved while new components were introduced for persistence, logging, user interaction, and testing.
+
+**Enhancement Highlights**
+- Strengthened and centralized contact validation
+- Added persistent CSV storage
+- Added contact import and export functionality
+- Added duplicate protection during imports
+- Added application activity logging
+- Created a command-line interface
+- Expanded JUnit testing and regression coverage
+- Preserved compatibility with the original Contact Service
+
+[View Original Artifact](https://github.com/DKozzy/CS-320) | [View Enhanced Artifact](PASTE-ENHANCED-REPOSITORY-URL-HERE) | **Enhancement Narrative — Coming Soon**
 
 
 ## Category 2: Algorithms and Data Structures
