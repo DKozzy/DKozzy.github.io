@@ -3,54 +3,135 @@
 
 @import "{{ site.theme }}";
 
-/* Main page background */
+/* ---------- PAGE ---------- */
+
 body {
-    background-color: #16324f;
-    color: #f4f7fa;
+    background-color: #f7f9fc;
+    color: #465568;
+    font-size: 18px;
+    line-height: 1.7;
 }
 
-/* Header area */
+/* ---------- HERO / HEADER ---------- */
+
 .page-header {
-    background-color: #0d47a1;
-    background-image: linear-gradient(120deg, #0d47a1, #1976d2);
+    background-image: linear-gradient(120deg, #174f8a, #2386b8);
+    padding: 4.5rem 2rem;
 }
 
-/* Main content */
-.main-content {
-    color: #f4f7fa;
-}
-
-/* Headings */
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4 {
+.project-name {
     color: #ffffff;
+    font-size: 3.25rem;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 
-/* Links */
+.project-tagline {
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+
+.main-content {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 3.5rem 2rem 5rem;
+    color: #465568;
+}
+
+/* ---------- HEADINGS ---------- */
+
+.main-content h1 {
+    color: #174f8a;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-content h2 {
+    color: #1d6fa5;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e1e8ef;
+}
+
+.main-content h3 {
+    color: #263f59;
+    font-size: 1.45rem;
+    margin-top: 2rem;
+}
+
+/* ---------- TEXT ---------- */
+
+.main-content p {
+    margin-bottom: 1.4rem;
+}
+
+.main-content li {
+    margin-bottom: 0.45rem;
+}
+
+/* ---------- LINKS ---------- */
+
 .main-content a {
-    color: #90caf9;
+    color: #1479b8;
+    font-weight: 500;
+    text-decoration: none;
 }
 
-/* Links when hovering */
 .main-content a:hover {
-    color: #bbdefb;
+    color: #0d527e;
+    text-decoration: underline;
 }
 
-/* Horizontal divider */
+/* ---------- DIVIDERS ---------- */
+
 .main-content hr {
-    background-color: #6d8eaa;
+    height: 1px;
+    margin: 3rem 0;
+    background-color: #d9e2ec;
+    border: 0;
 }
 
-/* Code blocks */
+/* ---------- CODE ---------- */
+
 .main-content code {
-    background-color: #102a43;
-    color: #f4f7fa;
+    background-color: #edf2f7;
+    color: #174f8a;
+    padding: 0.15rem 0.35rem;
+    border-radius: 4px;
 }
 
-/* Tables */
-.main-content table th,
-.main-content table td {
-    border-color: #527a9f;
+/* ---------- MOBILE ---------- */
+
+@media screen and (max-width: 640px) {
+    .page-header {
+        padding: 3rem 1rem;
+    }
+
+    .project-name {
+        font-size: 2.3rem;
+    }
+
+    .project-tagline {
+        font-size: 1.1rem;
+    }
+
+    .main-content {
+        padding: 2rem 1.25rem;
+    }
+
+    .main-content h1 {
+        font-size: 2rem;
+    }
+
+    .main-content h2 {
+        font-size: 1.65rem;
+    }
 }
