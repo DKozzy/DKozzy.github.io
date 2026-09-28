@@ -22,7 +22,7 @@ This enhancement demonstrates my growth in software engineering and design by ex
 - Expanded JUnit testing and regression coverage
 - Preserved compatibility with the original Contact Service
 
-[View Original Artifact](https://github.com/DKozzy/CS-320) | [View Enhanced Artifact](PASTE-ENHANCED-REPOSITORY-URL-HERE) | [Read Enhancement Narrative](software-design-and-engineering-narrative.md)
+[View Original Artifact](https://github.com/DKozzy/CS-320) | [View Enhanced Artifact](https://github.com/DKozzy/CS-320-Enahnced) | [Read Enhancement Narrative](software-design-and-engineering-narrative.md)
 
 
 ## Category 2: Algorithms and Data Structures
