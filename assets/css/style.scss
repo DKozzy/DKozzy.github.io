@@ -1,0 +1,38 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    background-color: #1f2329;
+    color: #e6e6e6;
+}
+
+.page-header {
+    background-color: #171a1f;
+    background-image: none;
+}
+
+.main-content {
+    color: #e6e6e6;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+    color: #ffffff;
+}
+
+.main-content a {
+    color: #58a6ff;
+}
+
+.main-content hr {
+    background-color: #444c56;
+}
+
+.main-content code {
+    background-color: #2d333b;
+    color: #e6e6e6;
+}
