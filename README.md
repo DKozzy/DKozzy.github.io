@@ -50,7 +50,11 @@ The enhancement introduces structured weight-history data, sorting and date-rang
 - Expanded automated testing and regression coverage
 - Preserved compatibility with existing weight-management functionality
 
-[View Original Artifact](https://github.com/DKozzy/CS-360) | [View Enhanced Artifact](https://github.com/DKozzy/CS-360-Enhanced) | [Read Enhancement Narrative](algorithms-and-data-structures-narrative.md)
+<div class="artifact-links">
+  <a href="https://github.com/DKozzy/CS-360" class="artifact-button">View Original Artifact</a>
+  <a href="https://github.com/DKozzy/CS-360-Enhanced" class="artifact-button">View Enhanced Artifact</a>
+  <a href="algorithms-and-data-structures-narrative.html" class="artifact-button">Read Enhancement Narrative</a>
+</div>
 
 
 ## Category 3: Databases
@@ -75,4 +79,8 @@ The enhancement introduces MongoDB aggregation pipelines, compound indexing, ser
 - Centralized rescue-filter query construction
 - Preserved compatibility with the original CRUD functionality
 
-[View Original Artifact](https://github.com/DKozzy/CS-340) | [View Enhanced Artifact](https://github.com/DKozzy/CS-340-Enhanced) | [Read Enhancement Narrative](databases-narrative.md)
+<div class="artifact-links">
+  <a href="https://github.com/DKozzy/CS-340" class="artifact-button">View Original Artifact</a>
+  <a href="https://github.com/DKozzy/CS-340-Enhanced" class="artifact-button">View Enhanced Artifact</a>
+  <a href="databases-narrative.html" class="artifact-button">Read Enhancement Narrative</a>
+</div>
