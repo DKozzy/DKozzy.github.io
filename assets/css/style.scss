@@ -152,3 +152,34 @@ body {
         font-size: 1.65rem;
     }
 }
+
+/* =========================
+   ARTIFACT BUTTONS
+   ========================= */
+
+.artifact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.portfolio-content .artifact-button {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    background-color: #1d6fa5;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease,
+                transform 0.2s ease;
+}
+
+.portfolio-content .artifact-button:hover {
+    background-color: #174f8a;
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
