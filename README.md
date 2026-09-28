@@ -6,7 +6,7 @@ Welcome to my Computer Science ePortfolio. This portfolio highlights projects an
 
 ## Code Review
 
-https://www.youtube.com/watch?v=7S0pSLH24lc
+[Code Review of Artifacts](https://www.youtube.com/watch?v=7S0pSLH24lc)
 
 ## Category 1: Software Engineering and Design
 
