@@ -27,7 +27,7 @@ This enhancement demonstrates my growth in software engineering and design by ex
 <div class="artifact-links">
   <a href="https://github.com/DKozzy/CS-320" class="artifact-button">View Original Artifact</a>
   <a href="https://github.com/DKozzy/CS-320-Enahnced" class="artifact-button">View Enhanced Artifact</a>
-  <a href="software-engineering-narrative.html" class="artifact-button">Read Enhancement Narrative</a>
+  <a href="software-design-and-engineering-narrative.html" class="artifact-button">Read Enhancement Narrative</a>
 </div>
 
 
