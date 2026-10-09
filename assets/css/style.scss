@@ -183,3 +183,72 @@ body {
     text-decoration: none;
     transform: translateY(-2px);
 }
+
+/* =========================
+   EXPANDABLE PORTFOLIO SECTIONS
+   ========================= */
+
+.portfolio-section {
+    margin: 2rem 0;
+    border: 1px solid #dce6ef;
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.portfolio-section summary {
+    padding: 1.25rem 1.5rem;
+    background: #eef5fa;
+    color: #174f8a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portfolio-section summary::-webkit-details-marker {
+    display: none;
+}
+
+.portfolio-section summary::after {
+    content: "+";
+    font-size: 1.8rem;
+    font-weight: 400;
+    flex-shrink: 0;
+}
+
+.portfolio-section[open] summary::after {
+    content: "−";
+}
+
+.portfolio-section summary:hover {
+    background: #e1edf6;
+}
+
+.portfolio-section summary:focus-visible {
+    outline: 3px solid #2386b8;
+    outline-offset: -3px;
+}
+
+.portfolio-section-content {
+    padding: 1.5rem;
+}
+
+.portfolio-section-content > :first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .portfolio-section summary {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .portfolio-section-content {
+        padding: 1rem;
+    }
+}
