@@ -37,7 +37,9 @@ The code review covers the original implementations of my CS-320 Contact Service
   </div>
 </details>
 
-## Category 1: Software Engineering and Design
+<details class="portfolio-section">
+  <summary>Category 1: Software Engineering and Design</summary>
+  <div class="portfolio-section-content" markdown="1">
 
 ### CS-320 Contact Service
 
@@ -61,8 +63,13 @@ This enhancement demonstrates my growth in software engineering and design by ex
   <a href="software-design-and-engineering-narrative.html" class="artifact-button">Read Enhancement Narrative</a>
 </div>
 
+  </div>
+</details>
 
-## Category 2: Algorithms and Data Structures
+
+<details class="portfolio-section">
+  <summary>Category 2: Algorithms and Data Structures</summary>
+  <div class="portfolio-section-content" markdown="1">
 
 ### CS-360 WeighPoint
 
@@ -87,8 +94,12 @@ The enhancement introduces structured weight-history data, sorting and date-rang
   <a href="algorithms-and-data-structures-narrative.html" class="artifact-button">Read Enhancement Narrative</a>
 </div>
 
+  </div>
+</details>
 
-## Category 3: Databases
+<details class="portfolio-section">
+  <summary>Category 3: Databases</summary>
+  <div class="portfolio-section-content" markdown="1">
 
 ### CS-340 Grazioso Salvare Dashboard
 
@@ -115,3 +126,6 @@ The enhancement introduces MongoDB aggregation pipelines, compound indexing, ser
   <a href="https://github.com/DKozzy/CS-340-Enhanced" class="artifact-button">View Enhanced Artifact</a>
   <a href="databases-narrative.html" class="artifact-button">Read Enhancement Narrative</a>
 </div>
+
+  </div>
+</details>
