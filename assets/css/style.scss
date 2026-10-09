@@ -238,3 +238,34 @@ body {
         font-size: 1.65rem;
     }
 }
+
+/* =========================
+   HERO SOCIAL LINKS
+   ========================= */
+
+.hero-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.75rem;
+}
+
+.hero-links a {
+    display: inline-block;
+    padding: 0.65rem 1.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease,
+                transform 0.2s ease;
+}
+
+.hero-links a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
