@@ -2,7 +2,9 @@
 
 Welcome to my Computer Science ePortfolio. This portfolio highlights projects and enhancements completed as part of my CS-499 Computer Science Capstone at Southern New Hampshire University.
 
-## Professional Self-Assessment
+<details class="portfolio-section" open>
+  <summary>Professional Self-Assessment</summary>
+  <div class="portfolio-section-content" markdown="1">
 
 Throughout my time at Southern New Hampshire University, pursuing my Bachelor of Science in Computer Science has been an opportunity to develop technical skills, strengthen my problem-solving abilities, and prepare for a new direction in my professional career. My educational journey has not followed a traditional path. I began by earning my GED while working for Walmart, where I have spent nearly 15 years gaining experience in retail operations, leadership, and customer service. Continuing my education while maintaining my professional responsibilities has required determination, time management, and a willingness to challenge myself. As I approach graduation, I recognize that the knowledge I have gained extends beyond programming languages and technical concepts. My coursework has helped me develop a more analytical approach to solving problems, a greater appreciation for secure and maintainable software, and the confidence to pursue opportunities within the computer science industry.
 
@@ -19,6 +21,9 @@ Security has become an especially important part of how I evaluate software. My 
 The three enhanced artifacts included in this ePortfolio demonstrate how these technical and professional skills have developed throughout my computer science education. The first artifact, the CS-320 Contact Service, represents my growth in software engineering and design. I expanded a basic Java contact management application into a more complete system by introducing centralized validation, persistent CSV storage, import and export capabilities, activity logging, a command-line interface, and additional automated testing. The second artifact, WeighPoint from CS-360, demonstrates my understanding of algorithms and data structures through enhancements involving weight-history sorting, date-range filtering, statistical calculations, moving averages, and trend analysis. The third artifact, the CS-340 Grazioso Salvare dashboard, highlights my database development skills through MongoDB aggregation, indexing, server-side data retrieval, validation, and security improvements. During performance testing, the use of indexing reduced the number of documents examined for a rescue-related query from 10,000 to 17, providing a measurable example of how database optimization can improve application efficiency.
 
 Although these three artifacts represent different areas of computer science, they share an emphasis on improving existing software through thoughtful design, testing, security, and maintainability. Together, they demonstrate my ability to evaluate an existing application, identify opportunities for improvement, implement technical solutions, and communicate the reasoning behind my decisions. Developing this ePortfolio has allowed me to reflect on the progress I have made from learning fundamental programming concepts to applying more advanced software engineering practices. As I prepare to complete my degree, I see this portfolio as both a demonstration of my current abilities and a foundation for continued professional development. My goal is to continue expanding my knowledge, contribute to meaningful technology projects, and bring together my operational experience and computer science education to create solutions that benefit organizations and the people who depend on their systems.
+
+  </div>
+</details>
 
 <details class="portfolio-section">
   <summary>Code Review</summary>
