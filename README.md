@@ -20,13 +20,17 @@ The three enhanced artifacts included in this ePortfolio demonstrate how these t
 
 Although these three artifacts represent different areas of computer science, they share an emphasis on improving existing software through thoughtful design, testing, security, and maintainability. Together, they demonstrate my ability to evaluate an existing application, identify opportunities for improvement, implement technical solutions, and communicate the reasoning behind my decisions. Developing this ePortfolio has allowed me to reflect on the progress I have made from learning fundamental programming concepts to applying more advanced software engineering practices. As I prepare to complete my degree, I see this portfolio as both a demonstration of my current abilities and a foundation for continued professional development. My goal is to continue expanding my knowledge, contribute to meaningful technology projects, and bring together my operational experience and computer science education to create solutions that benefit organizations and the people who depend on their systems.
 
-## Code Review
+<details class="portfolio-section">
+  <summary>Code Review</summary>
+  <div class="portfolio-section-content" markdown="1">
 
 As part of my CS-499 Computer Science Capstone, I conducted a code review of three projects developed throughout my computer science program. The purpose of this review was to evaluate the existing functionality, identify opportunities for improvement, and establish a plan for enhancing each application. This process allowed me to examine my previous work from a software engineering perspective and consider how the applications could be improved through stronger design, more efficient algorithms, and better database management.
 
 The code review covers the original implementations of my CS-320 Contact Service, CS-360 WeighPoint application, and CS-340 Grazioso Salvare dashboard. Throughout the presentation, I discuss the functionality of each project, evaluate areas that could benefit from improvement, and explain the enhancements I planned to implement during the capstone. These improvements focus on software engineering and design, algorithms and data structures, and databases, while also considering maintainability, testing, and security.
 
 [Code Review of Artifacts](https://www.youtube.com/watch?v=7S0pSLH24lc)
+  </div>
+</details>
 
 ## Category 1: Software Engineering and Design
 
