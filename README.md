@@ -22,6 +22,10 @@ Although these three artifacts represent different areas of computer science, th
 
 ## Code Review
 
+As part of my CS-499 Computer Science Capstone, I conducted a code review of three projects developed throughout my computer science program. The purpose of this review was to evaluate the existing functionality, identify opportunities for improvement, and establish a plan for enhancing each application. This process allowed me to examine my previous work from a software engineering perspective and consider how the applications could be improved through stronger design, more efficient algorithms, and better database management.
+
+The code review covers the original implementations of my CS-320 Contact Service, CS-360 WeighPoint application, and CS-340 Grazioso Salvare dashboard. Throughout the presentation, I discuss the functionality of each project, evaluate areas that could benefit from improvement, and explain the enhancements I planned to implement during the capstone. These improvements focus on software engineering and design, algorithms and data structures, and databases, while also considering maintainability, testing, and security.
+
 [Code Review of Artifacts](https://www.youtube.com/watch?v=7S0pSLH24lc)
 
 ## Category 1: Software Engineering and Design
