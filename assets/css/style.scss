@@ -185,28 +185,24 @@ body {
 }
 
 /* =========================
-   EXPANDABLE PORTFOLIO SECTIONS
+   COLLAPSIBLE PORTFOLIO HEADINGS
    ========================= */
 
 .portfolio-section {
-    margin: 2rem 0;
-    border: 1px solid #dce6ef;
-    border-radius: 10px;
-    background: #ffffff;
-    overflow: hidden;
+    margin-top: 3.5rem;
 }
 
 .portfolio-section summary {
-    padding: 1.25rem 1.5rem;
-    background: #eef5fa;
-    color: #174f8a;
-    font-size: 1.5rem;
+    color: #1d6fa5;
+    font-size: 2rem;
     font-weight: 600;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid #dce6ef;
     cursor: pointer;
     list-style: none;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
 }
 
@@ -215,40 +211,30 @@ body {
 }
 
 .portfolio-section summary::after {
-    content: "+";
-    font-size: 1.8rem;
-    font-weight: 400;
-    flex-shrink: 0;
+    content: "⌄";
+    font-size: 1.5rem;
+    transition: transform 0.2s ease;
 }
 
 .portfolio-section[open] summary::after {
-    content: "−";
+    transform: rotate(180deg);
 }
 
 .portfolio-section summary:hover {
-    background: #e1edf6;
+    color: #174f8a;
 }
 
 .portfolio-section summary:focus-visible {
-    outline: 3px solid #2386b8;
-    outline-offset: -3px;
+    outline: 2px solid #2386b8;
+    outline-offset: 4px;
 }
 
 .portfolio-section-content {
-    padding: 1.5rem;
-}
-
-.portfolio-section-content > :first-child {
-    margin-top: 0;
+    padding-top: 0.5rem;
 }
 
 @media screen and (max-width: 640px) {
     .portfolio-section summary {
-        padding: 1rem;
-        font-size: 1.2rem;
-    }
-
-    .portfolio-section-content {
-        padding: 1rem;
+        font-size: 1.65rem;
     }
 }
